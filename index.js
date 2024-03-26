@@ -1,6 +1,6 @@
-const inquirer = require('Inquirer')
+const Inquirer = require('inquirer')
 
-inquirer
+Inquirer
     .prompt([
         {
             type: "input",

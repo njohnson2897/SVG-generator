@@ -1,4 +1,13 @@
 const Inquirer = require('inquirer')
+const fs = require('fs')
+
+
+
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log('SVG file successfully created'))
+};
+
 
 Inquirer
     .prompt([
@@ -23,4 +32,8 @@ Inquirer
             name: "shapeColor",
             message: "What color would you like the shape to be?",
         }
-    ]);
+    ])
+
+    .then((response) => {
+        writeToFile('./output/logo.svg', response.shape.render());
+    });

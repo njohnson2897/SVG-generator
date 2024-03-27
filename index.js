@@ -4,7 +4,7 @@ const createSVG = require('./lib/document.js')
 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-    err ? console.error(err) : console.log('SVG file successfully created'))
+    err ? console.error(err) : console.log('Generated logo.svg'))
 };
 
 

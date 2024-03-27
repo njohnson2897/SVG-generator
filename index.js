@@ -14,6 +14,9 @@ Inquirer
             type: "input",
             name: "text",
             message: "Please type up to 3 characters to serve as the text of your logo",
+            validate: (text)  => {
+                text.length 
+            }        
         },
         {
             type: "input",

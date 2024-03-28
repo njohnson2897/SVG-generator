@@ -11,6 +11,7 @@ Upon running the application, this is a screenshot of what the prompts will look
 ![svg generator project screenshot](./images/svg-generator-prompts-screenshot.JPG)
 
 Following the completion of all of the prompts, an .svg file will be generated in the "output" folder that will contain a logo looking similar to this (varying depending on user responses):
+
 ![sample generated svg screenshot](./images/svg-output-screenshot.JPG)
 
 The following is a link to a walkthrough video that demonstrates all of the functionality of the program:

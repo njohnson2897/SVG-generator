@@ -14,7 +14,7 @@ Following the completion of all of the prompts, an .svg file will be generated i
 ![sample generated svg screenshot](./images/svg-output-screenshot.JPG)
 
 The following is a link to a walkthrough video that demonstrates all of the functionality of the program:
-[SVG Generator Walkthrough Video](https://drive.google.com/file/d/1N0OTUK0_sng83SKRTTgX4Dl_CVm2ezTg/view)
+[SVG Generator Walkthrough Video](https://drive.google.com/file/d/1pBAyY0r5bG6GCggrkw5iqIRjf8iBGTDK/view)
 
 ## Contributing
 N/A
